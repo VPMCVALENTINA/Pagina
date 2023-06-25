@@ -272,8 +272,8 @@ a{
     .menu-label{
         display: initial;
     }
-    .menu.navbar{
-        mask-position: absolute;
+    .menu .navbar{
+        position: absolute;
         top: 100%;
         left: 0;
         right: 0;
@@ -288,5 +288,101 @@ a{
     }
     .menu.navbar ul li a:hover{
         color: #303030;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .bg{
+        width: 500px;
+    }
+    .esp{
+        display: none;
+    }
+    .header-info{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .header-txt{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .header-txt h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .header-img{
+        width: 100%;
+        text-align: center;
+        padding-top: 35px;
+    }
+    .header-img img{
+        width: 300px;
+    }
+    .info{
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-1{
+        margin-bottom: 20px;
+    }
+    .nosotros{
+        padding: 30px;
+    }
+    .bg-2{
+        top: 80px;
+        width: 200px;
+    }
+    .nosotros-info{
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .nosotros-img{
+        width: 100%;
+    }
+    .nosotros-img img{
+        width: 300px;
+    }
+    .nosotros-txt{
+        width: 100%;
+    }
+    .nosotros-txt h2{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    .nosotros-txt p{
+        margin-bottom: 20px;
+    }
+    .products{
+        padding: 30px;
+        text-align: center;
+    }
+    .products h2{
+        font-size: 40px;
+    }
+    .products p{
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .product-info{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .product p{
+        padding: 30px;
+    }
+    .footer{
+        padding: 30px;
+    }
+    .footer-links{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .socials{
+        margin-bottom: 25px;
     }
 }
