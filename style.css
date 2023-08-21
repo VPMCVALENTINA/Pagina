@@ -115,7 +115,7 @@ body {
 }
 
 .header-img{
-    width: 50%;
+    width: 70%;
 }
 .header-img img{
     width:150px ;
@@ -141,7 +141,7 @@ body {
     font-size: 18px;
     color: #303030;
     margin-bottom: 10px;
-} 
+}
 
 .info-1 p{
     font-size: 16px;
@@ -208,7 +208,7 @@ body {
 }
 .product-info{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-auto-rows:auto;
     grid-gap: 3rem;
 }
@@ -217,6 +217,7 @@ body {
     text-align: center;
     box-shadow: 0 0 20px 20px rgba(0,0,0,0.1);
     border-radius: 25px;
+    margin: 70px;
 }
 .product img{
     width: 100%;
